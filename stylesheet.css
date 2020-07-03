@@ -1,0 +1,352 @@
+* {
+  box-sizing: border-box;
+  font-family: "Montserrat";
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear : left;
+}
+
+.container {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url(https://cdn-brilio-net.akamaized.net/news/2019/11/19/174252/10-jenis-tanaman-hias-yang-mudah-dirawat-oleh-pemula-1911190.jpg);
+  background-size: cover;
+  color: black;
+  text-align: center;
+}
+
+.top-wrapper h1 {
+  opacity: 0.7;
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+
+.top-wrapper p {
+  opacity: 0.7;
+  margin-bottom: 3px;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+}
+
+.btn:hover{
+    opacity: 1;
+}
+
+.signup {
+  background-color: #239b76;
+}
+
+.btn-wrapper {
+  margin: 20px 0;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: #1b252f;
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  padding: 10px 0;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-left h1 {
+  color: #dedede;
+}
+
+.header-right {
+  float: right;
+  margin-right: -25px;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.hamburger {
+  color: white;
+  float: right;
+  padding: 15px 0;
+  display: none;
+}
+
+.lesson-wrapper {
+  padding-bottom: 80px;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  color: black;
+}
+
+.heading h2 {
+  font-weight: normal;
+  font-size: 40px;
+}
+
+.lesson {
+  float: left;
+  width: 25%;
+}
+
+.lesson-icon {
+  position: relative;
+}
+
+.lesson-icon h2 {
+  margin-top: 38px;
+}
+
+.lesson-icon p {
+  position: absolute;
+  top: 90px;
+  width: 100%;
+  color: white;
+}
+
+.txt-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 18px;
+  color: black;
+}
+
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 20px;
+  text-align: center;
+  
+}
+
+.message {
+  background-color: #5dca88;
+  padding: 15px 40px;
+  cursor: pointer; 
+  box-shadow: 0 7px #1a7940;
+}
+
+.heading h3 {
+  font-weight: normal;  
+  margin-top: 60px;
+}
+
+.heading p {
+  margin-top: 20px;
+  padding: 0px 20px;
+  text-align: center
+}
+
+
+
+.section-title {
+  text-align: center; 
+  padding-top: 20px;
+  padding-bottom: 5px;
+  font-size: 30px;
+  margin: 0 auto;
+}
+
+.contact-form {
+  padding-bottom: 30px;
+  margin: 0 auto;
+}
+
+.daftar {
+  margin-top: 10px;
+  padding-right: 15px;
+}
+
+.daftar h3 {
+  color: black;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.daftar p {
+  color: black;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.daftar h6 {
+  font-size: 14px;
+  color: black;
+  padding-top: 20px;
+  text-align: center;
+}
+
+input[type=text], select, textarea{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+  border-style: groove;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+.container-sub {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.submit {
+  background-color: #4CAF50;
+  border-color: #4CAF50;
+  color: white;
+  box-shadow : 0 7px #686666;
+  padding: 10px 20px;
+  border-radius: 6px;
+  border-style: none;
+  cursor: pointer;
+  float: right;
+}
+
+.submit:hover {
+  background-color: ##4CAF50;
+  color: black;
+}
+
+.submit:active {
+  box-shadow : none;
+  position : relative;
+  top : 7px;
+}
+
+@media screen and (max-width: 750px) {
+  .col-25, .col-75, .submit {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+footer {
+  background-color: #1b252f;
+  height: 200px;
+}
+
+.form_text {
+  text-align: left;
+  color: #fff;
+  font-size: 14px;
+  padding-left: 20px;
+}
+
+.form_text h2 {
+  padding-bottom: 15px;
+}
+
+.find-us {
+  text-align: center;
+  padding-top: 40px;
+}
+
+.judul-find-us {
+  font-size: 30px;
+  color: white;
+  font-family: "Arial";
+}
+
+.btn-find-us {
+  margin-top: 25px;
+}
+
+.btn-ig {
+  margin-right: 10px;
+  padding: 8px;
+  color: white;
+  font-family: "Arial";
+}
+
+.btn-facebook {
+  margin-right: 10px;
+  padding: 8px;
+  color: white;
+  font-family: "Arial";
+}
+
+.btn-youtube {
+  margin-right: 10px;
+  padding: 8px;
+  color: white;
+  font-family: "Arial";
+}
+
+.copyright {
+  text-align: center;
+  color: white;
+  font-size: 14px;
+  padding: 30px 0;
+}
+
+.copyright p {
+  font-family: "Arial"
+}
